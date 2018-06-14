@@ -30,15 +30,13 @@ this can get:
 ```swift
 let detailString = NSMutableAttributedString(string: " Super sweet syntactic sugar for making AttributedString.")
 let syntacticSlice = detailString[2...29]
- syntacticSlice.foregroundColor = UIColor.red
-
+syntacticSlice.foregroundColor = UIColor.red
 syntacticSlice.shadow = {
   let shadow = NSShadow()
   shadow.shadowColor = UIColor.blue
   shadow.shadowBlurRadius = 2
   return shadow
 }()
-
 let endSlice = detailString[29...detailString.length]
 endSlice.baselineOffset = -3
 endSlice.foregroundColor = UIColor.lightGray
