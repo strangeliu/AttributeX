@@ -8,7 +8,7 @@ Pod::Spec.new do |spec|
   spec.summary      = 'Super sweet syntactic sugar for making AttributedString'
 
   spec.ios.deployment_target = '9.0'
+  spec.swift_version = '4.1'
 
-  spec.public_header_files  = 'Source/*.h'
   spec.source_files = 'Source/*.{h,m,swift}'
 end
