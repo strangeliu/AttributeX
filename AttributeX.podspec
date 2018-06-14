@@ -3,7 +3,7 @@ Pod::Spec.new do |spec|
   spec.version      = '0.1'
   spec.license      = { :type => 'MIT' }
   spec.homepage     = 'https://github.com/strangeliu/AttributeX'
-  spec.source       = { :git => 'https://github.com/strangeliu/AttributeX.git' }
+  spec.source       = { :git => 'https://github.com/strangeliu/AttributeX.git', :tag => 'v0.1' }
   spec.authors      = { 'strangeliu' => 'strangeliu@gmail.com' }
   spec.summary      = 'Super sweet syntactic sugar for making AttributedString'
 
