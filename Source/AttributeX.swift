@@ -22,12 +22,12 @@ public class AttributeX {
 
 extension AttributeX {
     
-    func getValue<ExpectType>(for key: NSAttributedStringKey) -> ExpectType? {
+    func getValue<ExpectType>(for key: NSAttributedString.Key) -> ExpectType? {
         // TODO: get value for special key and range
         return nil
     }
     
-    func setValue(_ value: Any?, for key: NSAttributedStringKey) {
+    func setValue(_ value: Any?, for key: NSAttributedString.Key) {
         if let value = value {
             mutableAttributedString.addAttribute(key, value: value, range: range)
         } else {
