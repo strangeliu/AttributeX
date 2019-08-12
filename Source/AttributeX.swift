@@ -27,7 +27,7 @@ extension AttributeX {
         return nil
     }
     
-    func setValue(_ value: Any?, for key: NSAttributedString.Key) {
+    public func setValue(_ value: Any?, for key: NSAttributedString.Key) {
         if let value = value {
             mutableAttributedString.addAttribute(key, value: value, range: range)
         } else {
